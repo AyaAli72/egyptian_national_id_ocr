@@ -1,0 +1,104 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# OCR temporary files
+# =========================
+temp_*.jpg
+temp_*.jpeg
+temp_*.png
+*.tmp
+
+# =========================
+# OCR results / generated data
+# =========================
+results/
+output/
+outputs/
+processed/
+uploads/
+tmp/
+old/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Python packaging
+# =========================
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Local OCR / Tesseract files
+# =========================
+# *.traineddata
+
+# =========================
+# Large/local model files
+# =========================
+# *.pt
+# *.pth
+*.onnx
+*.bin
+*.safetensors
+
+# =========================
+# Generated images
+# =========================
+debug/
+debug_images/
+screenshots/

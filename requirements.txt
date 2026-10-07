@@ -1,0 +1,21 @@
+# Egyptian National ID Card OCR Recognition System
+# Minimum versions only: the old exact pins (e.g. Pillow==10.1.0) have no ready-made
+# packages for newer Python versions, so pip tried to build them and failed.
+
+# Web Framework and API
+fastapi>=0.104
+uvicorn[standard]>=0.24
+python-multipart>=0.0.6
+
+# Computer Vision and Image Processing
+opencv-python>=4.8
+Pillow>=10.1
+imutils>=0.5.4
+numpy>=1.25
+
+# OCR (Optical Character Recognition)
+pytesseract>=0.3.10
+
+# Development and Testing (Optional)
+pytest>=7.4
+pytest-asyncio>=0.21
